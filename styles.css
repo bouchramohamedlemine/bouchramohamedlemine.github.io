@@ -1,0 +1,461 @@
+/* styles.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0097A7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.video-background {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.video-overlay h1 {
+    font-size: 3.5em;
+}
+
+.video-overlay p {
+    font-size: 2.5em;
+}
+
+.content-section {
+    padding: 40px 20px;
+    background: #F9F9F5;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Kalam", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+section {
+    color: #565656;
+}
+
+.sec1 {
+    border-radius: 3em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 2em auto;
+    width: 55%;
+    padding: 3em;
+}
+
+.sec2 {
+    border-radius: 3em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 2em auto;
+    width: 80%;
+    padding: 3em;
+}
+
+.sec3 {
+    border-radius: 3em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 2em auto;
+    width: 80%;
+}
+
+.sec4 {
+    border-radius: 3em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 60%;
+    margin: 2em auto;
+}
+
+
+.bg {   
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #C4DFE6 50%, #66A5AD 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
+
+ 
+
+
+/* ****************************** About section ******************************** */
+
+.headshot {
+    width: 200px;
+    height: 200px;
+    border-radius: 5em;
+    object-fit: contain;
+
+}
+
+.text-content {
+    margin: 1em auto;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* ****************************** Skills section ******************************** */
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: "Kalam", cursive;
+}
+
+#skills h2 {
+    color: #0097A7;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;  
+    align-items: center;  
+}
+
+
+.skill {
+    font-size: 1.3em;
+    margin: 2em auto 1em auto;
+    width: 30%
+}
+
+#skills i {  
+    font-weight: bold;
+    font-size: 3em;
+    color: #0097A7;
+    margin-top: -.1em
+}
+
+.skill p {
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+
+/* ******************************** Projects section ************************************** */
+
+.sticky-note-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the sticky notes horizontally */
+    align-items: center; /* Center the sticky notes vertically */
+}
+
+.sticky-note {
+    background-color: #feff9c; /* Light yellow */
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    transform: rotate(-3deg);
+    transition: transform 0.2s ease-in-out;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+
+.sticky-note:nth-child(even) {
+    transform: rotate(0deg);
+}
+
+.sticky-note:nth-child(even):hover {
+    transform: rotate(-3deg) scale(1.05);  
+}
+
+.sticky-note:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+.sticky-note h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.sticky-note p {
+    margin-bottom: 0;
+}
+
+
+.sticky-note::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle, #565656 0%, #2d2d2d 70%);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow to make the pin look real */
+}
+
+.sticky-note::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.3); /* Dark color for the pin shaft */
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Shadow for the pin shaft */
+}
+
+
+
+.sticky-note:nth-child(1) {
+    background-color: #dae3ea; /* Light mint */
+}
+
+.sticky-note:nth-child(2) {
+    background-color: #F7FFA7; /* Light yellow */
+}
+
+.sticky-note:nth-child(3) {
+    background-color: #FCCBD6; /* Light pink */ 
+}
+
+.sticky-note:nth-child(4) {
+    background-color: #B3E5FC; /* Light blue */
+}
+
+.sticky-note:nth-child(5) {
+    background-color: #CCFF90; /* Light green */
+}
+
+.sticky-note:nth-child(6) {
+    background-color: #FFE0B2; /* Light peach */
+}
+
+.sticky-note:nth-child(7) {
+    background-color: #EED3FE; /* Light lavender */
+}
+
+.sticky-note a {
+    text-decoration: none;
+}
+
+.mid_logo {
+    width: 40px;
+    height: 40px;
+}
+
+.small_logo {
+    width: 35px;
+    height: 35px;
+}
+
+.image-link img {
+    transition: width 0.5s ease, height 0.5s ease;
+}
+
+.image-link:hover img {
+    width: 140px;
+    height: 140px
+    
+}
+
+
+/* ***************************** CONTACT FORM ******************************** */
+
+.container{
+  color: #565656;
+  background: #F9F9F5;
+  max-width: 800px;
+  width: 800px;
+  padding: 1em 2em;
+  width: 40%;
+  margin: auto;
+  border-radius: 3em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container .text{
+  text-align: center;
+}
+
+.container form .form-row{
+  display: flex;
+  margin: 32px 0;
+}
+
+form .form-row .input-data{
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+
+form .form-row .textarea{
+  height: 70px;
+}
+
+.input-data input,
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid #565656;
+}
+
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #0097A7;
+}
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 40px;
+}
+
+.submit-btn {
+    margin: 3em auto 0 auto;
+    text-align: center;
+}
+
+
+.submit-btn .input-data input {
+  color: whitesmoke;
+  background: none;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #0097A7;
+  margin: 1em auto 0 auto;
+  border-radius: .5em;
+  width: 50%;
+}
+
+.submit-btn .input-data input:hover {
+    background-color: #66A5AD;
+}
+
+label {
+    padding-left: 10px;
+    background: none;
+}
+
+input[type="text"], textarea {
+    background: none;
+    color: #565656;
+    margin-bottom: 4em;
+    font-family: "Istok Web", sans-serif;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #0097A7
+}
+
+  
+#icon i {
+    font-weight: bold;
+    font-size: 3em;
+    color:#0077B5;
+}
+
+#icon i:hover {
+    color:#005983
+}
+
+
+ 
+/* Make all sections responsive */
