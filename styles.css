@@ -490,3 +490,7 @@ textarea:focus {
 
  
  
+footer {
+	margin: 1.5em 1em 1em 1em;
+	font-weight: bold;
+}
