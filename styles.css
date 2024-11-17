@@ -99,7 +99,7 @@ section {
     padding: 3em;
 }
 
-.sec3 {
+.sec3, .sec2 {
     border-radius: 3em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     margin: 2em auto;
@@ -183,7 +183,7 @@ h2 {
 #skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;  
     align-items: center;  
 }
@@ -355,6 +355,7 @@ h2 {
 /* Responsive style for mobile screens */
 @media (max-width: 768px) {
     .container {
+        margin: auto;
       max-width: 90%; /* Reduce max width */
       width: 90%; /* Adjust to occupy more screen space */
       padding: 1em; /* Smaller padding for smaller screens */
@@ -364,7 +365,7 @@ h2 {
                   rgba(10, 37, 64, 0.25) 0px -1px 3px 0px inset;
     }
   }
-  
+
 .container .text{
   text-align: center;
 }
@@ -473,4 +474,4 @@ textarea:focus {
 
 
  
-/* Make all sections responsive */
+ 
