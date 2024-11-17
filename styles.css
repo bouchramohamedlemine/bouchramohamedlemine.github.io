@@ -192,7 +192,9 @@ h2 {
 .skill {
     font-size: 1.3em;
     margin: 2em auto 1em auto;
-    width: 30%
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
 }
 
 #skills i {  
@@ -350,6 +352,19 @@ h2 {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+/* Responsive style for mobile screens */
+@media (max-width: 768px) {
+    .container {
+      max-width: 90%; /* Reduce max width */
+      width: 90%; /* Adjust to occupy more screen space */
+      padding: 1em; /* Smaller padding for smaller screens */
+      border-radius: 1.5em; /* Adjust border-radius */
+      box-shadow: rgba(50, 50, 93, 0.15) 0px 20px 50px -10px, 
+                  rgba(0, 0, 0, 0.2) 0px 15px 30px -15px, 
+                  rgba(10, 37, 64, 0.25) 0px -1px 3px 0px inset;
+    }
+  }
+  
 .container .text{
   text-align: center;
 }
