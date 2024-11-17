@@ -364,6 +364,10 @@ h2 {
                   rgba(0, 0, 0, 0.2) 0px 15px 30px -15px, 
                   rgba(10, 37, 64, 0.25) 0px -1px 3px 0px inset;
     }
+
+    .sec1, .sec2 {
+        padding: 1em
+    }
   }
 
 .container .text{
