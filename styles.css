@@ -368,6 +368,13 @@ h2 {
     .sec1, .sec2 {
         padding: 1em
     }
+
+    .sec1, .skill {
+        width: 80%;
+        margin: auto
+    }
+
+
   }
 
 .container .text{
