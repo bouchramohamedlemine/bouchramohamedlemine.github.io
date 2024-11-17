@@ -356,8 +356,8 @@ h2 {
 @media (max-width: 768px) {
     .container {
         margin: auto;
-      max-width: 90%; /* Reduce max width */
-      width: 90%; /* Adjust to occupy more screen space */
+      max-width: 87%; /* Reduce max width */
+      width: 87%; /* Adjust to occupy more screen space */
       padding: 1em; /* Smaller padding for smaller screens */
       border-radius: 1.5em; /* Adjust border-radius */
       box-shadow: rgba(50, 50, 93, 0.15) 0px 20px 50px -10px, 
