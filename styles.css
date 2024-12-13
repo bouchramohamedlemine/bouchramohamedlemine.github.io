@@ -477,17 +477,30 @@ textarea:focus {
 }
 
   
-#icon i {
+#github, #linkedin {
+    margin: 1em
+}
+
+#linkedin i {
     font-weight: bold;
     font-size: 3em;
     color:#0077B5;
 }
 
-#icon i:hover {
+#linkedin  i:hover {
     color:#005983
 }
 
 
+#github i {
+    font-weight: bold;
+    font-size: 3em;
+    color: #24292e; /* GitHub's main text color */
+}
+
+#github i:hover {
+    color: #6e5494; /* GitHub's purple accent */
+}
  
  
 footer {
