@@ -284,34 +284,42 @@ h2 {
 }
 
 
-
 .sticky-note:nth-child(1) {
-    background-color: #dae3ea; /* Light mint */
+    background-color: #D0F0C0; /* Soft celery green */
 }
 
 .sticky-note:nth-child(2) {
-    background-color: #F7FFA7; /* Light yellow */
+    background-color: #FFFACD; /* Lemon chiffon */
 }
 
 .sticky-note:nth-child(3) {
-    background-color: #FCCBD6; /* Light pink */ 
+    background-color: #A7D8DE; /* Delicate blush pink */
 }
 
 .sticky-note:nth-child(4) {
-    background-color: #B3E5FC; /* Light blue */
+    background-color: #FADADD; /* Fresh aqua blue */
 }
 
 .sticky-note:nth-child(5) {
-    background-color: #CCFF90; /* Light green */
+    background-color: #E6E6FA; /* Lavender mist */
 }
 
 .sticky-note:nth-child(6) {
-    background-color: #FFE0B2; /* Light peach */
+    background-color: #FFE5B4; /* Pastel apricot */
 }
 
 .sticky-note:nth-child(7) {
-    background-color: #EED3FE; /* Light lavender */
+    background-color: #E0BBE4; /* Powder coral pink */
 }
+
+.sticky-note:nth-child(8) {
+    background-color: #FFDFD3; /* Soft orchid purple */
+}
+
+.sticky-note:nth-child(9) {
+    background-color: #FBE9D0; /* Creamy sand */
+}
+
 
 .sticky-note a {
     text-decoration: none;
