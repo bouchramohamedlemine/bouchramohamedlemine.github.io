@@ -285,11 +285,11 @@ h2 {
 
 
 .sticky-note:nth-child(1) {
-    background-color: #FFECB3; /* Light amber */
+    background-color: #C8E6C9; /* Mint green */
 }
 
 .sticky-note:nth-child(2) {
-    background-color: #C8E6C9; /* Mint green */
+    background-color: #FFECB3; /* Light amber */ 
 }
 
 .sticky-note:nth-child(3) {
@@ -301,15 +301,15 @@ h2 {
 }
 
 .sticky-note:nth-child(5) {
-    background-color: #D1C4E9; /* Lavender */
+    background-color: #DCEDC8; /* Pale lime green */ 
 }
 
 .sticky-note:nth-child(6) {
-    background-color: #FFF9C4; /* Soft yellow */
+    background-color: #B2EBF2; /* Pale cyan */ 
 }
 
 .sticky-note:nth-child(7) {
-    background-color: #B2EBF2; /* Pale cyan */
+    background-color: #FFF9C4; /* Soft yellow */
 }
 
 .sticky-note:nth-child(8) {
@@ -317,7 +317,7 @@ h2 {
 }
 
 .sticky-note:nth-child(9) {
-    background-color: #DCEDC8; /* Pale lime green */
+    background-color: #D1C4E9; /* Lavender */
 }
 
 
