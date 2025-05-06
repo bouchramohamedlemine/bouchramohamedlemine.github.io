@@ -285,39 +285,39 @@ h2 {
 
 
 .sticky-note:nth-child(1) {
-    background-color: #D0F0C0; /* Soft celery green */
+    background-color: #FFECB3; /* Light amber */
 }
 
 .sticky-note:nth-child(2) {
-    background-color: #FFFACD; /* Lemon chiffon */
+    background-color: #C8E6C9; /* Mint green */
 }
 
 .sticky-note:nth-child(3) {
-    background-color: #A7D8DE; /* Delicate blush pink */
+    background-color: #BBDEFB; /* Baby blue */
 }
 
 .sticky-note:nth-child(4) {
-    background-color: #FADADD; /* Fresh aqua blue */
+    background-color: #F8BBD0; /* Light rose pink */
 }
 
 .sticky-note:nth-child(5) {
-    background-color: #E6E6FA; /* Lavender mist */
+    background-color: #D1C4E9; /* Lavender */
 }
 
 .sticky-note:nth-child(6) {
-    background-color: #FFE5B4; /* Pastel apricot */
+    background-color: #FFF9C4; /* Soft yellow */
 }
 
 .sticky-note:nth-child(7) {
-    background-color: #E0BBE4; /* Powder coral pink */
+    background-color: #B2EBF2; /* Pale cyan */
 }
 
 .sticky-note:nth-child(8) {
-    background-color: #FFDFD3; /* Soft orchid purple */
+    background-color: #FFCCBC; /* Light peach */
 }
 
 .sticky-note:nth-child(9) {
-    background-color: #FBE9D0; /* Creamy sand */
+    background-color: #DCEDC8; /* Pale lime green */
 }
 
 
