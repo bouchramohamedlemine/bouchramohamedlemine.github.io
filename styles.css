@@ -297,7 +297,7 @@ h2 {
 }
 
 .sticky-note:nth-child(4) {
-    background-color: #F8BBD0; /* Light rose pink */
+    background-color: #FFF9C4; /* Soft yellow */ 
 }
 
 .sticky-note:nth-child(5) {
@@ -309,7 +309,7 @@ h2 {
 }
 
 .sticky-note:nth-child(7) {
-    background-color: #FFF9C4; /* Soft yellow */
+    background-color: #F8BBD0; /* Light rose pink */
 }
 
 .sticky-note:nth-child(8) {
