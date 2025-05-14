@@ -289,40 +289,41 @@ h2 {
 }
 
 .sticky-note:nth-child(2) {
-    background-color: #FFECB3; /* Light amber */ 
+    background-color: #FFE0B2; /* Lavender */
 }
 
 .sticky-note:nth-child(3) {
-    background-color: #BBDEFB; /* Baby blue */
+    background-color: #FFECB3; /* Light amber */ 
 }
 
 .sticky-note:nth-child(4) {
-    background-color: #FFF9C4; /* Soft yellow */ 
+    background-color: #BBDEFB; /* Baby blue */
 }
 
 .sticky-note:nth-child(5) {
-    background-color: #DCEDC8; /* Pale lime green */ 
+    background-color: #FFF9C4; /* Soft yellow */ 
 }
 
 .sticky-note:nth-child(6) {
-    background-color: #B2EBF2; /* Pale cyan */ 
+    background-color: #DCEDC8; /* Pale lime green */ 
 }
 
 .sticky-note:nth-child(7) {
-    background-color: #F8BBD0; /* Light rose pink */
+    background-color: #B2EBF2; /* Pale cyan */ 
 }
 
 .sticky-note:nth-child(8) {
-    background-color: #FFCCBC; /* Light peach */
+    background-color: #F8BBD0; /* Light rose pink */
 }
 
 .sticky-note:nth-child(9) {
-    background-color: #D1C4E9; /* Lavender */
+    background-color: #FFCCBC; /* Light peach */
 }
 
 .sticky-note:nth-child(10) {
-    background-color: #FFE0B2; /* Lavender */
+    background-color: #D1C4E9; /* Lavender */
 }
+
 
 .sticky-note a {
     text-decoration: none;
