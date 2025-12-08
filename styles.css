@@ -555,8 +555,10 @@ footer {
       text-align: center;
     }
   
-    .intro-text {
+
+	.intro-text {
       text-align: center;
+      margin-top: -1em;
     }
 
     .intro-image img {
